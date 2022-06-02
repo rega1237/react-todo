@@ -1,0 +1,30 @@
+.navBar {
+  width: 100%;
+  background-color: #044599;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.navContainer {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navContainer li {
+  padding: 5px;
+}
+
+.navContainer a {
+  color: white;
+  text-decoration: none;
+}
+
+.navContainer a:hover,
+.navContainer a:active,
+.navContainer a.active {
+  color: #95bcf0;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #95bcf0;
+}

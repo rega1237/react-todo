@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 
 const About = () => (
@@ -14,4 +14,4 @@ const About = () => (
     <Outlet />
   </div>
 );
-export default About
+export default About;
